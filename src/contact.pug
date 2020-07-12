@@ -1,0 +1,12 @@
+extends templates/basicPage.pug
+
+block append styles
+  link(rel='stylesheet', href='/styles/contactStyles.scss')
+
+block prepend header
+  - let page = "Contact"
+
+block append content
+  section.section
+    .container
+      h3.subtitle Reach us at #[a(href=`mailto:${email}`)= email].
