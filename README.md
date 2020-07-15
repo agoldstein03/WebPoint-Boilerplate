@@ -14,7 +14,7 @@ Please make all your changes on a separate branch from the master branch. The ti
 
 Please split up your work into multiple, smaller commits that include basic increments in functionality. For example, you might have a commit that fixes a bug you found, then a separate commit that adds a feature. Separating them out instead of including them both in one commit allows us to better track (and revert if issues arise) changes.
 
-Before you push, and often throughout development, run the following command. It will run linters over your Pug, SCSS, and JS (it will tell you if you programmed something in an invalid or improper way). If everything is good, they will not output anything. The linters are very picky. Please appease them before you push (you should have no linting errors before pushing unless explicitly told otherwise):
+Before you push, and often throughout development, run the following command. It will run linters over your Pug and JS (it will tell you if you programmed something in an invalid or improper way) and do a test build of the site. If everything is good, they will not output anything. The linters are very picky. Please appease them before you push (you should have no linting errors before pushing unless explicitly told otherwise):
 ```
 npm test
 ```
